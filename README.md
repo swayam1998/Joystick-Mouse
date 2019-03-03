@@ -1,1 +1,1 @@
-The java code for running Arduino mouse
+The java code for running Arduino Nano controlled joystick mouse to assist in making cursor movement  while typing, without having to leave the keyboard for the primary mouse. It's still in beta and lots of changes are needed. Very soon I am going to write an instructable chronicling the entire project.
