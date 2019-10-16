@@ -397,7 +397,9 @@ public static void main(String[] args) throws Exception     {
         else{
         
                 if (Math.abs(xCord - 500) > 5)
-                    mouseX = mouseX + (int)((500 - xCord) * 0.021);
+                    float x1 = (float)(xCord-500)/(float)(0.7/500);
+                    float x2 = 10*(float)(Math.exp(x1)-1);
+                    mouseX = mouseX + (int)((500 - x2));
                 if (Math.abs(yCord - 500) > 5)
                     mouseY = mouseY - (int)((500 - yCord) * 0.021);
         
